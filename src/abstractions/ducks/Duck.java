@@ -5,8 +5,8 @@ import interfaces.behaviors.QuackBehavior;
 
 public abstract class Duck {
 
-    private FlyBehavior flyBehavior;
-    private QuackBehavior quackBehavior;
+    public FlyBehavior flyBehavior;
+    public QuackBehavior quackBehavior;
 
     public Duck () {
     }
@@ -24,6 +24,6 @@ public abstract class Duck {
     }
 
     public void display() {
-        // Не хватает данных для реализации метода. Какие должны быть поля и зачем он вообще нужен?
+        // Метод будет переопределен для каждой утки отдельно
     }
 }
